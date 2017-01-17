@@ -1,2 +1,1 @@
-
-https://github.com/SachinKSingh28/adop-docker-compose.git
+https://github.com/SachinKSingh28/adop-catridge-docker-compose-skeleton.git

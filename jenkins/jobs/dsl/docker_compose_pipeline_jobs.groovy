@@ -4,8 +4,8 @@ def projectFolderName = "${PROJECT_NAME}"
 
 // Variables
 // **The git repo variables will be changed to the users' git repositories manually in the Jenkins jobs**
-def composeGitRepo = 'service-dtr-proxy'
-def composeGitUrl = "ssh://jenkins@gerrit:29418/service-dtr-proxy.git"
+def composeGitRepo = 'adop-catridge-docker-compose-skeleton'
+def composeGitUrl = "ssh://jenkins@gerrit:29418/" + projectFolderName + "/" + composeGitRepo
 
 // ** The logrotator variables should be changed to meet your build archive requirements
 def logRotatorDaysToKeep = 7
